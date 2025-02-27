@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Customer View - MOS Burgers</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <header data-bs-theme="dark">
+    <div class="collapse text-bg-dark" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4>About</h4>
+            <p class="text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non similique eveniet quidem quos, consequuntur eaque omnis? Tempora voluptas nulla repellendus.</p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4>Contact</h4>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-white">Follow on Instagram</a></li>
+              <li><a href="#" class="text-white">Like on Facebook</a></li>
+              <li><a href="#" class="text-white">Email me</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Navbar -->
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2"
+            viewBox="0 0 24 24">
+            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+            <circle cx="12" cy="13" r="4" />
+          </svg>
+          <strong>MOS Burgers</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="storeView.html">Store</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="orderPlace.html">Order</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="customerMain.html">Customers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container mt-5">
+      <h2>Customer Details</h2>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Customer ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Add customer rows here -->
+          <tr>
+            <td>c0001</td>
+            <td>Chathuri Alwis</td>
+            <td>chathuriAlwis@gmail.com</td>
+            <td>077385953</td>
+            <td>
+              <a href="customerUpdate.html" class="btn btn-warning btn-sm">Edit</a>
+              <a href="customerDelete.html" class="btn btn-danger btn-sm">Delete</a>
+            </td>
+          </tr>
+          <!-- Add more rows as needed -->
+        </tbody>
+      </table>
+      <a href="customerAdd.html" class="btn btn-primary">Add New Customer</a>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
